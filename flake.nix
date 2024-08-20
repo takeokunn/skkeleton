@@ -25,7 +25,6 @@
           };
 
           skkeleton-config = ''
-            set clipboard+=unnamedplus
             call skkeleton#config({ 'globalDictionaries': ["${pkgs.skk-dicts}/share/SKK-JISYO.L"] })
 
             imap <C-j> <Plug>(skkeleton-toggle)
